@@ -15,7 +15,7 @@ import datetime
 from fastapi.middleware.cors import CORSMiddleware
 origins = [
     "http://localhost.tiangolo.com", "https://localhost.tiangolo.com",
-    "http://localhost", "http://localhost:8080", "https://cajero-app-3ln35.herokuapp.com/"
+    "http://localhost", "http://localhost:8080", "https://cajero-app-3ln35.herokuapp.com"
 ]
 
 api.add_middleware(
